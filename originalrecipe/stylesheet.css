@@ -1,0 +1,344 @@
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-wrapper {
+  height: 700px;
+  background-image: url(image/main-header.jpg);
+  background-size: cover;
+}
+
+.main-container h1{
+  font-family: 'Amiko';
+  padding: 180px 0 0 0;
+  font-size: 100px;
+  color: #700b0f;    
+  text-align: left;
+}
+
+.main-container h4{
+  padding-left: 20px;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-weight: 100;
+  color: black;    
+  text-align: left;
+}
+
+.btn-wa{
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #16b816d2;
+  text-decoration: none;
+}
+
+.btn-promo{
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f44336d2;
+  text-decoration: none;
+}
+
+.btn-wa:hover{
+  background-color: #13a313;
+}
+
+.btn-promo:hover{
+  background-color: #f44336;
+}
+
+.main-icon{
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.profil-wrapper {
+    background-color: #ef9dc3;
+    float: center;
+}
+
+.profil-wrapper h1{
+    padding-top: 100px;
+    font-size:60px;
+    text-align: center;
+    color: white;
+}
+
+.profil-container{
+    display: flex;
+    margin: 0 auto;
+    width: 75%;
+    padding-top: 50px;
+}
+
+.img-container img {
+    width: 25%;
+    float: left;
+    margin-left: 100px;
+    border-radius: 90%;
+    flex: auto;
+}
+
+.img-container p {
+    margin-top: 20px;
+    width: 50%;
+    float: left;
+    text-align: left;
+    color: white;
+    flex: auto;
+    padding-left: 50px;
+}
+
+.img-container h2{
+    font-size:45px;
+    margin-top: 60px;
+    width: 50%;
+    float: left;
+    text-align: left;
+    color: white;
+    flex: auto;
+    padding-left: 50px;
+}
+
+
+.clear{
+    clear: left;
+}
+
+
+.our-service h1{
+    padding-top: 50px;
+    text-align: center;
+    color: #ef9dc3;
+}
+
+
+
+.jasa-wrapper h1{
+    padding-top: 100px;
+    text-align: center;
+    font-size:45px;
+    
+}
+
+.jasa-wrapper h3 {
+    padding-top: 25px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+.box {
+    flex: auto;
+    width: 25%;
+    margin: 15px 15px;
+    text-align: center;
+    position: relative;
+    
+}
+
+.box img {
+    width: 100%;
+    float: left;
+    border: solid 2px #ef9dc3;
+}
+
+.box h3{
+    padding-top: 10px;
+    color: #ef9dc3;
+    display: inline-block;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.box img:hover{
+    opacity: 0.3;
+    
+}
+
+.box img:hover{
+    opacity: 0.2;
+}
+
+.buy{
+    background-color: #ef9dc3;
+    padding: 7px;
+    width: 15%;
+    height: 6%;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+}
+
+.buy a {
+    text-decoration: none;
+    padding-left: 5px;
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+
+/* bagian card */
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+  }
+  .heading-cards h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  }
+  
+  .card {
+    width: 20%;
+    background: #fff;
+    margin-bottom: 50px;
+    transition: 0.3s;
+  }
+  
+  .card-header {
+    text-align: center;
+    padding: 30px 10px;
+    
+    color: #fff;
+  }
+  
+  .card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .card-body h2 {
+      color:#BC5687;
+  }
+  
+  .card-body .btn {
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .card {
+      width: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 620px) {
+    .container {
+      width: 100%;
+    }
+  
+    .heading {
+      padding: 20px;
+      font-size: 20px;
+    }
+  
+    .card {
+      width: 80%;
+    }
+  }
+
+/* batas bagian card */
+
+
+footer {
+    background-color: #ef9dc3;
+    margin: 0px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.header {
+  background-color: #ef9dc3;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
+  padding:20px 40px;
+}
+
+li {
+  list-style: none;
+  float: left;
+  /* Ubahlah padding atas & bawah ke 33px, dan padding kiri & kanan ke 20px */
+  padding:33px 20px;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 90px;
+  padding: 0 45px;
+  color: white;
+  display: block;
+  font-size:20px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Ubah position ke fixed, dan top ke 0 */
+  position:fixed;
+  top:0;
+  /* Ubah z-index ke 10 */
+  z-index:10;
+}
+
+.nav-smartphone{
+  display: none;
+  font-size: 25px;
+  margin-top: 21px;
+  float: right;
+}
